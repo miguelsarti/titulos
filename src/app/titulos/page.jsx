@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./titulos.module.css";
 import Header from "../components/header";
+import Footer from "../components/footer";
 
 const CorinthiansTrophiesPage = () => {
   return (
@@ -214,7 +215,8 @@ const CorinthiansTrophiesPage = () => {
         </section>
       </main>
 
-     
+    <Footer />
+
     </div>
   );
 };
